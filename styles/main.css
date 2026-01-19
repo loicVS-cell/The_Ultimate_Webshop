@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}   
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+body {
+    font-family: Arial;
+}
+
+.banner {
+    color:rgb(0, 0, 0);
+    background-color: #194570;
+    -webkit-text-stroke: 0.5px white;
+
+    display: flex; /* Gebruik Flexbox */
+    align-items: center; /* Verticaal centeren */
+    justify-content: flex-start; /* Horizontaal links uitlijnen */
+    gap: 20px; /* Ruimte tussen afbeelding en tekst */
+    padding: 20px; /* Ruimte rondom de banner */
+    height: 100px;
+
+}
+
+ul.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+
+    margin-left: 15px;
+
+}
+
+nav.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: black;
+    color:aliceblue;
+    height: 30px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    height: 655px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 100px;
+    background-color: #194570;
+}
+
+.footer-img {
+    margin-left: 80%;
+}
+
+footer > div {
+    width: 50%;
+
+}

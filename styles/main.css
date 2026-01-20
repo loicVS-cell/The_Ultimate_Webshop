@@ -52,6 +52,59 @@ main {
     height: 655px;
 }
 
+.product{
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+
+    height: 400px;
+    width: 100%;
+
+    background-color: rgb(60, 33, 209);
+
+}
+
+.productgrid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    background-color: blueviolet;
+
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between image and text */
+    width: 200px; /* Set a width for the container */
+    margin: 10px; /* Space around the container */
+    padding: 10px; /* Space inside the container */
+    background-color: #f0f0f0; /* Optional: Background color */
+    border-radius: 8px;
+
+}
+
+img.container {
+    width: 150px;
+}
+
+a.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
 footer {
     display: flex;
     align-items: center;

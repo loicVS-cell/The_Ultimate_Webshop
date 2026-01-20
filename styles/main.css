@@ -18,11 +18,11 @@ body {
     background-color: #194570;
     -webkit-text-stroke: 0.5px white;
 
-    display: flex; /* Gebruik Flexbox */
-    align-items: center; /* Verticaal centeren */
-    justify-content: flex-start; /* Horizontaal links uitlijnen */
-    gap: 20px; /* Ruimte tussen afbeelding en tekst */
-    padding: 20px; /* Ruimte rondom de banner */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
     height: 100px;
 
 }
@@ -78,16 +78,26 @@ main {
 
 }
 
+.container {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
 div.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px; /* Space between image and text */
-    width: 200px; /* Set a width for the container */
-    margin: 10px; /* Space around the container */
-    padding: 10px; /* Space inside the container */
-    background-color: #f0f0f0; /* Optional: Background color */
+
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+
+    background-color: #f0f0f0; 
     border-radius: 8px;
 
 }
@@ -100,9 +110,15 @@ a.container {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
     
 
+}
+
+.price_description {
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 footer {

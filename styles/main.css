@@ -52,8 +52,48 @@ nav.navigation{
 
 main {
     background-color: rgb(255, 255, 255);
+    padding-bottom: 5px;
 
 }
+
+.web_info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    width: 100%;
+    height: 500px;
+
+}
+
+.web_info_text{
+    width: 50%;
+    height: 100%;
+
+    background-color: crimson;
+
+}
+
+.illustration{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 50%;
+    height: 100%;
+
+
+}
+
+/*
+img.illustration{
+    height: 500px;
+    width: 500px;
+
+}
+*/
 
 .products{
 

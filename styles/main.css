@@ -11,12 +11,15 @@ a {
 
 body {
     font-family: Arial;
+    height: 100%;
 }
 
 .banner {
     color:rgb(0, 0, 0);
     background-color: #194570;
     -webkit-text-stroke: 0.5px white;
+
+    font-family: 'Press Start 2P', cursive;
 
     display: flex;
     align-items: center;
@@ -49,11 +52,12 @@ nav.navigation{
 
 main {
     background-color: rgb(255, 255, 255);
-    height: 655px;
+
 }
 
-.product{
-    
+.products{
+
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -63,7 +67,7 @@ main {
     height: 400px;
     width: 100%;
 
-    background-color: rgb(60, 33, 209);
+    background-color: #f0f0f0; 
 
 }
 
@@ -74,7 +78,7 @@ main {
 
     width: 100%;
 
-    background-color: blueviolet;
+    background-color: #f0f0f0; 
 
 }
 
@@ -134,5 +138,49 @@ footer {
 
 footer > div {
     width: 50%;
+    
+
+}
+
+/*---------------------------------------------------------------------------------*/
+@media (max-width: 1224px) {
+    .products {
+        height: 800px;
+    }
+
+    .productgrid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        
+
+        max-width: 900px;
+    }
+
+
+
+}
+
+/*---------------------------------------------------------------------------------*/
+@media (max-width: 746px) {
+    .products {
+        height: 1320px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .productgrid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+
+
+    img.container {
+    width: 200px;
+}
 
 }

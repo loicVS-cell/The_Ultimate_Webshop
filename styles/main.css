@@ -150,6 +150,23 @@ img.container {
     width: 150px;
 }
 
+button.container {
+    background-color: #5b6ee1;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    margin-top: 10px;
+    width: 30%;
+
+
+}
+
+button.container:hover {
+    transform: scale(1.50);
+
+}
+
 a.container {
     display: flex;
     align-items: center;

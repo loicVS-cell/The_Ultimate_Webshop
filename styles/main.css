@@ -137,6 +137,7 @@ img.illustration{
 
 .container {
     transition: transform 0.3s ease, opacity 0.3s ease;
+    position: relative;
 }
 
 .container:hover {
@@ -194,6 +195,32 @@ a.container {
     margin-top: 10px;
     font-weight: bold;
 }
+
+.label {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    z-index: 1; /* <--- Ensures the label appears above the image */
+}
+
+/*colors for different labels */
+.label.sale {
+    background-color: #ff6b6b;
+}
+
+.label.new {
+    background-color: #4ecdc4;
+}
+
+.label.limited {
+    background-color: #a78bfa;
+}
+
 
 /*footer -------------------------------------------------------------------------------*/
 footer {

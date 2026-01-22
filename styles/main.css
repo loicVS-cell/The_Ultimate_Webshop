@@ -230,6 +230,10 @@ button.container:hover {
     height: 470px;
 }
 
+h2 {
+    margin-top: 8px;
+}
+
 .newsgrid {
     display: flex;
     align-items: center;
@@ -283,6 +287,14 @@ div.news_box {
 .news_box_text{
     margin-left: 5px;
     height: 50%;
+}
+
+img.news_box_img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    height: 100%;
+    width: 100%;
 }
 
 

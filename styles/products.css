@@ -1,9 +1,12 @@
+body{
+    background-color: #f0f0f0;
+}
 main{
     display: flex;
     flex-direction: row;
     
     height: 670px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -37,7 +40,29 @@ img.display.product {
     
 }
 
+
 .display.info {
-    background-color: crimson;
+    padding-top: 6%;
     
+    
+}
+
+p.display.info {
+    font-size: 24px;
+    font-weight: bold;
+
+    
+}
+
+ul.display.info {
+    padding-left: 20px;
+}
+
+.crossed-off {
+    color: rgb(196, 196, 196);
+    text-decoration: line-through;
+    text-decoration-color: rgb(196, 196, 196);
+    text-decoration-thickness: 1px;
+    font-weight: 300;
+    font-size: 16px;
 }

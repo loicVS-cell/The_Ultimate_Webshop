@@ -15,15 +15,16 @@ body {
 }
 
 .banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
     color:rgb(0, 0, 0);
     background-color: #194570;
     -webkit-text-stroke: 0.5px white;
 
     font-family: 'Press Start 2P', cursive;
 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     gap: 20px;
     padding: 20px;
     height: 100px;

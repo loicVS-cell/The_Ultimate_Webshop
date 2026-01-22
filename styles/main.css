@@ -75,6 +75,8 @@ main {
 .web_info_text{
     background-image: linear-gradient(to left, #5b6ee1,white);
 
+    margin-left: 5px;
+
     width: 50%;
     height: 100%;
 
@@ -250,6 +252,7 @@ div.news_box {
     
     background-color: aquamarine;
     border-radius: 8px;
+
     width: 260px;
     height: 340px;
     margin:20px;
@@ -278,6 +281,7 @@ div.news_box {
 }
 
 .news_box_text{
+    margin-left: 5px;
     height: 50%;
 }
 
@@ -295,6 +299,7 @@ footer {
 
 
 footer > div {
+    margin-left: 20px;
     width: 50%;
     
 

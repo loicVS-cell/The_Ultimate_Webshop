@@ -66,3 +66,21 @@ ul.display.info {
     font-weight: 300;
     font-size: 16px;
 }
+
+button.display.info {
+    background-color: #5b6ee1;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button.display.info:hover {
+    background-color: #4a5bc7;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}

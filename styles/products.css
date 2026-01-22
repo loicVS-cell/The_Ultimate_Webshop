@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    flex-direction: row;
+    
+    height: 670px;
+    background-color: #f0f0f0;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.display {
+    width: 50%;
+}
+
+.display.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+img.display.product {
+    width: 60%;
+
+}
+
+.display.product.label {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    border-radius: 90px;
+    width: 60px;
+    height: 60px;
+
+    font-size: 24px;
+    
+}
+
+.display.info {
+    background-color: crimson;
+    
+}

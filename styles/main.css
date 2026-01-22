@@ -231,7 +231,8 @@ a.container {
     border-radius: 16px;
     margin: 50px;
 
-    background-color: chocolate;
+    background-image: linear-gradient(to top, #27282e,rgb(65, 65, 80));
+    color: white;
 
     height: 470px;
 }
@@ -245,12 +246,13 @@ a.container {
 }
 
 .news_box {
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.3s ease;
 
 }
 
 .news_box:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
 div.news_box {
@@ -262,8 +264,6 @@ div.news_box {
     margin:20px;
     
 }
-
-
 
 .news_box.gray{
     background-color: #777777;
